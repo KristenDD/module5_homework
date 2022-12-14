@@ -71,9 +71,7 @@ let array = new Map([
   ["tesla", "USA"],
   ["lada", "Russia"]
 ]);
-for (let cars of array.keys()) {
-  console.log(`Ключ - ${cars}`); 
-}
-for (let city of array.values()) {
-  console.log(`Значение - ${city}`); 
+
+for (let [key, value] of array) {
+  console.log(`ключ- ${key}  значение- ${value}`);
 }
