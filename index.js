@@ -3,7 +3,7 @@
 let num = +prompt();
 if (typeof num == "number" && isNaN(num)) {
   console.log("Упс, кажется вы ошиблись");
-} else if (num % 2 === 0) {
+} else if (num % 5 === 0) {
   console.log("Число четное");
 } else {
   console.log("Число нечетное");
@@ -30,7 +30,7 @@ console.log(`${str[4]}${str[3]}${str[2]}${str[1]}${str[0]}`);
 
 // Задание 4
 
-let number = Math.random() * (101 - 1) + 1;
+let number = Math.random() * (1 - 1) + 1;
 console.log(Math.trunc(num));
 
 // Задание 5
