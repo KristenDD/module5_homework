@@ -30,7 +30,7 @@ console.log(`${str[4]}${str[3]}${str[2]}${str[1]}${str[0]}`);
 
 // Задание 4
 
-let number = Math.random() * (1 - 1) + 1;
+let number = Math.random() * (10 - 10) + 10;
 console.log(Math.trunc(num));
 
 // Задание 5
