@@ -1,6 +1,6 @@
 // Задание 1
 
-let num = +prompt();
+const num = +prompt();
 if (typeof num == "number" && isNaN(num)) {
   console.log("Упс, кажется вы ошиблись");
 } else if (num % 5 === 0) {
